@@ -4,13 +4,14 @@
 class Shape {
     constructor(){
         this.color = "red";
-        
-    }
-    drawShape  = ()=>{
+        drawShape  = ()=>{
 
         }
     calculateArea = ()=>{
 
    }
+        
+    }
+    
 }
 module.exports = Shape;
