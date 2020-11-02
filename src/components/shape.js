@@ -4,10 +4,10 @@
 class Shape {
     constructor(){
         this.color = "red";
-        drawShape  = ()=>{
+        this.drawShape  = ()=>{
 
         }
-    calculateArea = ()=>{
+    this.calculateArea = ()=>{
 
    }
         
