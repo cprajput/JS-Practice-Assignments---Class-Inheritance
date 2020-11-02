@@ -7,9 +7,9 @@ class Shape {
         this.drawShape  = ()=>{
 
         }
-    this.calculateArea = ()=>{
-
-   }
+   this.calculateArea=()=>{
+            
+        }
         
     }
     
