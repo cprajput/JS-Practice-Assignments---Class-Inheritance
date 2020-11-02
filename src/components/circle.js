@@ -4,7 +4,7 @@
 
 
 // export class using module.exports
-const Shape = require("./Shape.js");
+const Shape = require("./shape.js");
 
 class Circle extends Shape {
     constructor(){
