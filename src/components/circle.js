@@ -10,7 +10,7 @@ class Circle extends Shape {
     constructor(){
         super();
         this.calculateArea=()=>{
-            
+            return "area";
         }
     }
 }
