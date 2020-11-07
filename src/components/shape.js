@@ -5,10 +5,10 @@ class Shape {
     constructor(){
         this.color = "red";
         this.drawShape  = ()=>{
-
+            return "drawSHape";
         }
    this.calculateArea=()=>{
-            
+             return "calArea";
         }
         
     }
