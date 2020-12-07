@@ -2,15 +2,16 @@
 
 // export class using module.exports
 class Shape {
-    constructor(){
+    constructor(this){
         this.color = "red";
-        
+        this.drawShape = this.drawShape.bind();
+        this.calculateArea = this.calculateArea.bind();
         
     }
-    drawShape  = ()=>{
+    drawShape(){
             return "drawSHape";
         }
-   calculateArea=()=>{
+   calculateArea{
              return "calArea";
         }
     
