@@ -2,7 +2,7 @@
 
 // export class using module.exports
 class Shape {
-  constructor(this) {
+  constructor() {
     this.color = "red";
     this.drawShape = this.drawShape.bind(this);
     this.calculateArea = this.calculateArea.bind(this);
@@ -14,4 +14,6 @@ class Shape {
     return "calArea";
   }
 }
+const s = new Shape();
+console.log(s.color);
 module.exports = Shape;

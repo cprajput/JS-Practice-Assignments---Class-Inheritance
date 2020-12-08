@@ -6,7 +6,7 @@
 const Shape = require("./shape.js");
 
 class Circle extends Shape {
-  constructor(this) {
+  constructor() {
     super(this);
     this.calculateArea = this.calculateArea.bind(this);
   }
@@ -14,4 +14,5 @@ class Circle extends Shape {
     return "area";
   }
 }
+const c = new Circle();
 module.exports = Circle;
