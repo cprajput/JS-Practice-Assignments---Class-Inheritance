@@ -4,12 +4,12 @@
 class Shape {
   constructor() {
     this.color = "red";
-    this.drawShape = function () {
-      return "drawSHape";
-    };
-    this.calculateArea = function () {
-      return "calArea";
-    };
+  }
+  drawShape() {
+    return "drawSHape";
+  }
+  calculateArea() {
+    return "calArea";
   }
 }
 
