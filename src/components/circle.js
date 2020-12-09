@@ -3,15 +3,14 @@
 // declare class
 
 // export class using module.exports
-const Shape = require("./shape.js");
+const Shape = require("./shape");
 
 class Circle extends Shape {
-  constructor() {
-    super(this);
-    this.calculateArea = function () {
-      return "area";
-    };
-  }
+  constructor() {}
+  super();
 }
+calculateArea() {
+    return "calAreaCircle";
+  }
 
 module.exports = Circle;
